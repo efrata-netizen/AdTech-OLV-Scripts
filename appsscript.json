@@ -1,0 +1,27 @@
+{
+  "timeZone": "Asia/Jerusalem",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "Run 100Rows",
+        "functionName": "Run100Rows",
+        "defaultShortcut": "Ctrl+Alt+Shift+5"
+      },
+      {
+        "menuName": "checkAdsTxt",
+        "functionName": "checkAdsTxt"
+      },
+      {
+        "menuName": "format",
+        "functionName": "format"
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE_ANONYMOUS"
+  }
+}
